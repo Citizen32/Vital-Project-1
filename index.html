@@ -39,19 +39,18 @@
 
 					<!--PRACTICE SELECTOR==================================================-->
 					<div class="input-field col s12">
-						<select>
+						<select id="practices">
 							<option value="" >Practice</option>
-							<option value="1">Cardiologist</option>
-							<option value="2">Dentist</option>
-							<option value="3">Gastroenterologist</option>
-							<option value="4">Urologist</option>
+							<option value="Cardiologist">Cardiologist</option>
+							<option value="Dentist">Dentist</option>
+							<option value="Urologist">Urologist</option>
 						</select>
 						<label>Select Practice</label>
 					</div>
 					
 
 					<!--ZIP CODE INPUT=====================================================-->
-					<div class="row">
+					<div class="row" id="zipCode">
 						<label>ZIP Code</label><input type="text" pattern="[0-9]{5}" title="Five digit zip code" />
 					</div>
 					
@@ -73,7 +72,7 @@
 
 					
 					<!--SUBMIT BUTTON======================================================-->
-					<button class="btn waves-effect waves-light blue-grey" type="submit" name="action">Submit<i class="material-icons right">send</i></button>
+					<button id="submitBtn" class="btn waves-effect waves-light blue-grey" type="submit" name="action">Submit<i class="material-icons right">send</i></button>
 				</form>          
 			</div>
 		</div>
@@ -83,13 +82,14 @@
 		</div>
 	</div>
 
+	<div class="row">
 		<div class="col s12">
 			<div class="card-panel red accent-1">
 
 				<!--MAP SECTION=========================================================-->
 				
 				<!--RESULTS SECTION=====================================================-->
-				<div class="col s6">
+				<div class="col s8" id="resultsTable">
 					<div class="card-panel white">						
 						<table class="responsive-table highlight">
 							<thead>
@@ -124,9 +124,12 @@
 						</table>
 					</div>
 				</div>
+
 				<div class="col s6 blue-grey" id="map"></div>
+
 			</div>
 		</div>
+	</div>
 	
 
 

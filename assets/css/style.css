@@ -37,13 +37,20 @@ h4{
 }
 
 
+.responsive-table{
+	height: 340px;
+}
 
+#resultsPage{
+	float: left;
+}
 
 
 
  #map {
-   width: 50%;
-   height: 200px;
+   width: 30%;
+   height: 400px;
+   float: right;
  }
 
 .page-footer{
