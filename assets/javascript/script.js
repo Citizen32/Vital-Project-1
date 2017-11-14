@@ -114,7 +114,7 @@ $(document).ready(function() {
 
           thirdRowTds.eq(3).text(response.data[2].visit_address.street + ", " + response.data[2].visit_address.zip);
 
-      });*/
+      });/*
 
 
     function initMap() {  
@@ -313,7 +313,7 @@ $(document).ready(function() {
     }
  
 
-
+*/
 
   });
 // ZIP CODE SELECTOR=============================================================================//
